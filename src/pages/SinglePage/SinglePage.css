@@ -1,0 +1,65 @@
+.header-main {
+    width: 80%;
+}
+
+div.singlepost-container {
+    position: relative;
+    top: 80px; 
+}
+div.singlepost-container div.image{
+    max-height: 300px;
+    display: flex;
+    overflow: hidden;
+}
+div.singlepost-container img{
+    object-fit: contain;
+    object-position: center center;
+    width: 100%;
+}
+div.singlepost-container a{
+    color: black !important;
+    text-decoration: underline;
+}
+div.singlepost-container h1{
+    text-align: center;
+}
+div.singlepost-container time{
+    text-align: center;
+    display: block;
+    font-size: .8rem;
+    color: #aaa;   
+}
+
+div.singlepost-container div.author{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: .7rem;
+    font-weight: bold;
+}
+div.singlepost-container div.content-container img{
+    width: 500px;
+    height: 300px;
+    object-position: center;
+    display: flex;
+}
+div.singlepost-container div.content-container p{
+    line-height: 1.6rem;
+}
+div.singlepost-container div.edit-row{
+    text-align: center;
+    margin-bottom: 20px;
+}
+div.singlepost-container div.edit-row a.edit-btn{
+    background-color:#333;
+    color: #fff !important;
+    padding: 15px 30px;
+    border-radius: 5px;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 5px;
+    
+}
+a svg{
+    height:20px;
+}

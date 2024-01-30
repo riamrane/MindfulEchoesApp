@@ -1,0 +1,39 @@
+.post__container{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius:2rem;
+    padding-bottom: 2rem;
+    transition: all 300ms ease;
+    cursor: default;
+  }
+  .post__thumbnail {
+   height: 16rem;
+   overflow: hidden;
+   width: 100%;
+  }
+  .post__content{
+    margin-top: 1.5rem;
+  }
+  .post__footer{
+      margin-top: 2rem;
+  }
+  div.post__container div.post__content a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  @media only screen and (max-width: 890px) {
+    .post__container{
+      width: 280px;
+    }
+    .post__thumbnail{
+      height: 10rem;
+    }
+
+  }
+  @media only screen and (max-width: 450px) {
+    .post__container{
+      width: 250px;
+    }
+
+  }

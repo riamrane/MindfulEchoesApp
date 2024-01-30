@@ -1,0 +1,30 @@
+.header-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background: var(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-bottom: 4px solid var(--color-bg);
+    backdrop-filter: blur(20px);
+    width: 100%;
+  }
+
+  .header-sec a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .header-sec a.logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+  
+  }
+  
+  .header-sec nav{
+    display:flex;
+    gap: 3rem;
+  } 
+
